@@ -36,7 +36,7 @@ RUN cd /tmp \
     && rm -v /opt/bitcoin/bin/test_bitcoin /opt/bitcoin/bin/bitcoin-qt
 
 FROM ubuntu:latest
-LABEL maintainer="Kyle Manna <kyle@kylemanna.com>"
+LABEL maintainer="Brian Ngo <brian@bngo.dev>"
 
 ENTRYPOINT ["docker-entrypoint.sh"]
 ENV HOME /bitcoin
